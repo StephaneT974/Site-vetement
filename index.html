@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <title>Accueil</title>
+
+</head>
+<style>
+    body{background-color: azure;}
+    .carousel-inner > .carousel-item > img{ margin:auto; 
+    height: 700px;}
+    .d-flex > .card > img{ margin:auto; }
+</style>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid ">
+        <img src="logo.jpg" alt="logo" class="d-block" style="width:3%">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link d-flex justify-content-center" href="javascript:void(0)">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex justify-content-center" href="javascript:void(0)">Nos meilleurs produits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex justify-content-center" href="javascript:void(0)">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link d-flex justify-content-center" href="javascript:void(0)">A propos</a>
+              </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Rechercher un article...">
+            <button class="btn btn-primary" type="button">Rechercher</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container-fluid mt-3 d-flex justify-content-center my-3">
+      <h2>Tendances du moment</h2>
+    </div>
+
+    <div id="demo" class="carousel slide" data-bs-theme="dark">
+
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="vetement5.png" alt="robe5" class="d-block" style="width:30%">
+          </div>
+          <div class="carousel-item">
+            <img src="vetement2.png" alt="robe2" class="d-block" style="width:30%">
+          </div>
+          <div class="carousel-item">
+            <img src="vetement4.png" alt="chemise4" class="d-block" style="width:30%">
+          </div>
+        </div>
+        
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+
+      <div class="container-fluid mt-3 d-flex justify-content-center my-5">
+        <h2>Nos meilleurs articles pour homme</h2>
+      </div>
+
+      <div class="d-flex justify-content-evenly  my-3">
+        <div class="card w-25 h-25">
+          <img src="vetement3.png" class="card-img-top w-50" alt="Chemise">
+          <div class="card-body">
+            <h5 class="card-title"> Chemise</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <a href="#" class="btn btn-primary">Acheter</a>
+          </div>
+        </div>
+        <div class="card w-25 h-25">
+          <img src="vetement3.png" class="card-img-top w-50" alt="Chemise">
+          <div class="card-body">
+            <h5 class="card-title">Chemise</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <a href="#" class="btn btn-primary">Acheter</a>
+          </div>
+        </div>
+        <div class="card w-25 h-25">
+          <img src="vetement3.png" class="card-img-top w-50" alt="Chemise">
+          <div class="card-body">
+            <h5 class="card-title">Chemise</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <a href="#" class="btn btn-primary ">Acheter</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="container-fluid mt-3 d-flex justify-content-center my-5">
+        <h2>Nos meilleurs articles pour femme</h2>
+      </div>
+
+      <div class="d-flex justify-content-evenly  my-3">
+        <div class="card w-25 h-25">
+          <img src="vetement1.png" class="card-img-top w-25" alt="Robe">
+          <div class="card-body">
+            <h5 class="card-title"> Robe</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <a href="#" class="btn btn-primary">Acheter</a>
+          </div>
+        </div>
+        <div class="card w-25 h-25">
+          <img src="vetement1.png" class="card-img-top w-25" alt="Robe">
+          <div class="card-body">
+            <h5 class="card-title">Robe</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <a href="#" class="btn btn-primary">Acheter</a>
+          </div>
+        </div>
+        <div class="card w-25 h-25">
+          <img src="vetement1.png" class="card-img-top w-25" alt="Robe">
+          <div class="card-body">
+            <h5 class="card-title">Robe</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <a href="#" class="btn btn-primary ">Acheter</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <footer class="bg-dark text-center text-white">
+
+        
+        <div class="container p-4 pb-0">
+         
+          <section class="">
+            <form action="">
+            
+              <div class="row d-flex justify-content-center">
+               
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Tenez vous informer !</strong>
+                  </p>
+                </div>
+              
+                <div class="col-md-5 col-12">
+              
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example29" class="form-control" />
+                    <label class="form-label" for="form5Example29">Adresse email</label>
+                  </div>
+                </div>
+
+                <div class="col-auto">
+ 
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    S'abonner
+                  </button>
+                </div>
+
+              </div>
+
+            </form>
+          </section>
+
+        </div>
+
+        <section class="">
+          
+
+          <div class="row">
+
+            <div class="container text-center text-md-start mt-5">
+
+              <div class="row mt-3">
+
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3"></i>Notre compagnie
+                  </h6>
+                  <p>
+                    Here you can use rows and columns to organize your footer content. Lorem ipsum
+                    dolor sit amet, consectetur adipisicing elit.
+                  </p>
+                </div>
+
+
+    
+
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Liens utiles</h5>
+    
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Accueil</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Nos meilleurs produits</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Contact</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">A propos</a>
+                </li>
+              </ul>
+            </div>
+
+
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright
+        </div>
+
+      </footer>
+    
+    </body>
+</html>
